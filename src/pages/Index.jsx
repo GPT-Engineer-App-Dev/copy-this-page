@@ -24,7 +24,7 @@ const Index = () => {
           <VStack spacing={4} align="stretch">
             <Box p={4} bg="white" boxShadow="md">
               <HStack spacing={4}>
-                <Image borderRadius="full" boxSize="40px" src="https://via.placeholder.com/40" alt="User" />
+                <Image borderRadius="full" boxSize="40px" src="/images/profile1.png" alt="User 1" />
                 <VStack align="start" spacing={0}>
                   <Text fontWeight="bold">User</Text>
                   <Text fontSize="sm" color="gray.500">Posted by u/user 1 hour ago</Text>
@@ -39,7 +39,7 @@ const Index = () => {
             </Box>
             <Box p={4} bg="white" boxShadow="md">
               <HStack spacing={4}>
-                <Image borderRadius="full" boxSize="40px" src="https://via.placeholder.com/40" alt="User" />
+                <Image borderRadius="full" boxSize="40px" src="/images/profile2.png" alt="User 2" />
                 <VStack align="start" spacing={0}>
                   <Text fontWeight="bold">User</Text>
                   <Text fontSize="sm" color="gray.500">Posted by u/user 2 hours ago</Text>
