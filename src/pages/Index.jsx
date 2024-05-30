@@ -1,9 +1,10 @@
-import { Container, Box, VStack, HStack, Text, Image, Link, IconButton, Divider, Flex, Spacer, Input, Button } from "@chakra-ui/react";
+import { Container, Box, VStack, HStack, Text, Image, Link, IconButton, Divider, Flex, Spacer, Input, Button, useColorModeValue } from "@chakra-ui/react";
 import { FaRedditAlien, FaSearch, FaBell, FaUserCircle } from "react-icons/fa";
 
 const Index = () => {
+  const bgColor = useColorModeValue("#FF4500", "#FF4500");
   return (
-    <Container maxW="container.xl" p={0}>
+    <Container maxW="container.xl" p={0} bg={bgColor}>
       <Box bg="white" boxShadow="md" p={4}>
         <HStack spacing={4}>
           <FaRedditAlien size="32px" color="brand.primary" />
