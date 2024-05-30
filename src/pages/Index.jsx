@@ -6,8 +6,8 @@ const Index = () => {
     <Container maxW="container.xl" p={0}>
       <Box bg="white" boxShadow="md" p={4}>
         <HStack spacing={4}>
-          <FaRedditAlien size="32px" color="#FF4500" />
-          <Text fontSize="2xl" fontWeight="bold">reddit</Text>
+          <FaRedditAlien size="32px" color="brand.primary" />
+          <Text fontSize="2xl" fontWeight="bold" color="brand.primary">reddit</Text>
           <Spacer />
           <HStack spacing={4}>
             <Input placeholder="Search" size="md" />
@@ -31,9 +31,9 @@ const Index = () => {
               </HStack>
               <Text mt={4}>This is a sample post content. It should mimic the style and layout of a typical Reddit post.</Text>
               <HStack mt={4} spacing={4}>
-                <Button size="sm">Comment</Button>
-                <Button size="sm">Share</Button>
-                <Button size="sm">Save</Button>
+                <Button size="sm" colorScheme="brand.primary">Comment</Button>
+                <Button size="sm" colorScheme="brand.primary">Share</Button>
+                <Button size="sm" colorScheme="brand.primary">Save</Button>
               </HStack>
             </Box>
             <Box p={4} bg="white" boxShadow="md">
@@ -46,9 +46,9 @@ const Index = () => {
               </HStack>
               <Text mt={4}>This is another sample post content. It should mimic the style and layout of a typical Reddit post.</Text>
               <HStack mt={4} spacing={4}>
-                <Button size="sm">Comment</Button>
-                <Button size="sm">Share</Button>
-                <Button size="sm">Save</Button>
+                <Button size="sm" colorScheme="brand.primary">Comment</Button>
+                <Button size="sm" colorScheme="brand.primary">Share</Button>
+                <Button size="sm" colorScheme="brand.primary">Save</Button>
               </HStack>
             </Box>
           </VStack>
